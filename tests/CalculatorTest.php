@@ -5,7 +5,7 @@ final class CalculatorTest extends TestCase
 {
     public function testCanBeCreatedFromConstructor(): void{
         $calc =  new Calculator();
-        $this->assertInstanceOf(Calculator::Class, $calc);
+        $this->assertInstanceOf(Calculator::Class, $ccalc);
     }
 
     public function testAddNumbers(): void{
