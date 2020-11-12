@@ -10,7 +10,7 @@ final class CalculatorTest extends TestCase
 
     public function testAddNumbers(): void{
         $calc = new Calculator();
-        $this->assertEquals(6, $calc->add(3,2));
+        $this->assertEquals(5, $calc->add(3,2));
     }
 
 }
